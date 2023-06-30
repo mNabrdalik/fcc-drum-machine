@@ -1,0 +1,33 @@
+.drum-pad {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid black;
+    box-shadow: 3px 3px black;
+    background-color: #CA67F8;
+    border-radius: 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+    font-size: 1.5rem;
+    color: white;
+}
+
+.drum-pad:hover,
+.drum-pad:focus {
+    background-color: #F6AC3C;
+    color: white;
+}
+
+.drum-pad audio {
+    display: none;
+}
+
+@media only screen and (max-width: 576px) {
+
+    .drum-pad {
+        font-size: 1.25rem;
+    }
+  }
